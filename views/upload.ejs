@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>User Project</title>
+</head>
+
+<body class="font-[roboto]">
+
+    <form action="/upload" method="post" class="flex flex-col gap-4 mt-10 p-5" enctype="multipart/form-data">
+        <input class="px-3 py-2 rounded-lg outline-none" type="file" name="image">
+        <div class="submit mt-8">
+            <input class="px-3 py-2 rounded-lg bg-blue-700 text-white cursor-pointer" type="submit" value="Upload">
+        </div>
+    </form>
+
+</body>
+
+</html>
